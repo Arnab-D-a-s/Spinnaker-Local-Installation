@@ -5,11 +5,12 @@ Install helm but pay attention  that you dont need to apply init command in Helm
 
 curl -O https://raw.githubusercontent.com/spinnaker/halyard/master/install/macos/InstallHalyard.sh
 sudo bash ./InstallHalyard.sh -y --user $USER
+
 Check The Halyard version. 
 
-
 Enable Halyard for Kubernetes Provider
-check Halyard Configs 
+
+Check Halyard Configs 
 
 providers:
 kubernetes:
